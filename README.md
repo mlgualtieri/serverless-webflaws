@@ -6,7 +6,8 @@ This repository is a companion to the *Securing your Gatsby Serverless Functions
 Livestream at: https://www.crowdcast.io/e/securing-your-gatsby/register
 
 To get started:
-```npm install
+```shell
+npm install
 npm run develop
 ```
 View the demonstration at http://localhost:8000
