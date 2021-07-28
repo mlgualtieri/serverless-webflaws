@@ -1,7 +1,7 @@
 # Serverless Web Vulnerability Demonstration
 ## Featuring Gatsby Functions
 
-This repository is a companion to the *Securing your Gatsby Serverless Functions* livestream, hosted by Queen Raae [queen.raae.codes] on July 29, 2021.  We will discuss web security and best practices to secure your Gatsby Serverless Functions!  The examples from this repository will be used to demonstrate how to identify / exploit / and fix common web security flaws.
+This repository is a companion to the *Securing your Gatsby Serverless Functions* livestream, hosted by Queen Raae [https://queen.raae.codes] on July 29, 2021.  We will discuss web security and best practices to secure your Gatsby Serverless Functions!  The examples from this repository will be used to demonstrate how to identify / exploit / and fix common web security flaws.
 
 Livestream at: https://www.crowdcast.io/e/securing-your-gatsby/register
 
