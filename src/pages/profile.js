@@ -145,7 +145,7 @@ export default function App() {
       <input
         id="url"
         type="text"
-        defaultValue="http://localhost/check-update.php"
+        defaultValue="https://raw.githubusercontent.com/mlgualtieri/serverless-webflaws/master/resources/check-update.php"
         onChange={handleChange}
         style={{ display: `block`, marginBottom: 16 }}
         {...register("url", { required: true, maxLength: 80 })}
