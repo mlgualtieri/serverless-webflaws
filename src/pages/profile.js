@@ -99,29 +99,6 @@ export default function App() {
   }
 
 
-  /*
-  const handleTipCalc = event => {
-    console.log("Checking git history...")
-
-    let data = {}
-    data.total = document.getElementById("total").value;
-
-	fetch("/api/tip", {
-	    "credentials": "include",
-	    "headers": {
-	        'Content-Type': 'application/json',
-	    },
-	    "body": JSON.stringify(data),
-	    "method": "POST",
-	})
-      .then(res => res.json())
-      .then(body => {
-        //console.log(`response from API:`, body)
-        document.getElementById("tip_msg").innerText = body
-      })
-  }
-  */
-
 
   console.log({ errors })
 
@@ -193,24 +170,6 @@ export default function App() {
       <h5 id="git_msg"> </h5>
 
       <input type="button" value="Check Git History" onClick={handleGitHistory} />
-
-    {/*
-	  <hr/>
-
-      <label htmlFor="username">Tip Calculator:</label>
-      <input
-        id="total"
-        type="text"
-        defaultValue="45.00"
-        onChange={handleChange}
-        style={{ display: `block`, marginBottom: 16 }}
-        {...register("total", { required: true, maxLength: 80 })}
-      />
-
-      <h5 id="tip_msg"> </h5>
-
-      <input type="button" value="Calculate Tip" onClick={handleTipCalc} />
-    */}
 
     </form>
   )

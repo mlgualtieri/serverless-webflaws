@@ -1,13 +1,8 @@
-import { GatsbyFunctionRequest, GatsbyFunctionResponse } from "gatsby"
 import fetch from 'node-fetch'
 const execFile = require('child_process').execFile;
 
-export default function handler(
-  req: GatsbyFunctionRequest,
-  res: GatsbyFunctionResponse
-) {
+export default function handler(req,res) {
   console.log(`git api`, req.body)
-
 
     // RCE example
     // Vulnerable way to execute a shell command
@@ -24,7 +19,6 @@ export default function handler(
 	    	console.log(`stdout: ${stdout}`);
 			res.json(`${stdout}`);
 		}
-
 	});
 
     /*

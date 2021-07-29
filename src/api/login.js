@@ -1,13 +1,7 @@
-import { GatsbyFunctionRequest, GatsbyFunctionResponse } from "gatsby"
-//import fetch from 'node-fetch'
-
 //npm install jsonwebtoken
 import * as jwt from "jsonwebtoken"
 
-export default function handler(
-  req: GatsbyFunctionRequest,
-  res: GatsbyFunctionResponse
-) {
+export default function handler(req,res) {
     console.log(`login form`, req.body)
 
 	try 
@@ -84,7 +78,5 @@ export default function handler(
         {
     	    console.log(err);
   	    }
-
-
 }
 
