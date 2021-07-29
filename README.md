@@ -17,7 +17,7 @@ The repository highlights several common web vulnerabilities that can affect ser
 - Insecure Direct Object Reference (IDOR)
 - Server Side Request Forgery (SSRF)
 - Client Side Request Forgery (CSRF)
-- Remote Code Execution (RCE)
+- Remote Command/Code Execution (RCE)
 - Insecure Deserialization
 
 **This repository is for educational purposes only and includes code with known security vulnerabilities.  Use at your own risk!**
